@@ -37,8 +37,13 @@ $ python
     ```
 
 3. Upload the distribution using `twine`
-
     ```shell script
     $ python3 -m twine upload --repository testpypi dist/*
+    Uploading distributions to https://test.pypi.org/legacy/
+    Enter your username: __token__
+    Enter your password: <TestPyPi API key>
+    :
+    View at:
+    https://test.pypi.org/project/pythontemplate-rnelson5/0.1.0/
     ```
 
