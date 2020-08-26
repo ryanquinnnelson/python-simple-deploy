@@ -62,7 +62,7 @@ The goal of this project is to build an example Python package using industry-st
     https://test.pypi.org/project/pythontemplate-rnelson5/0.1.0/
     ```
 
-## Goals
+## A Project for Exploration and Learning
 The project is designed to be as teachable as possible:
 - Components in the project are uniquely named to help users clearly identify package components which might otherwise be confusing due to naming standards (i.e. git repository, Python package, Python module, and virtual environment are typically given the same name).
 - The output of the `main()` method of the `pythontemplatepackage` package allows users to explore the concept of virtual environments. Users can maintain different versions of python and the `requests` library in their regular environment versus a virtual environment, and see how output changes depending on where code is executed.
