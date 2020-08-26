@@ -16,7 +16,7 @@ The goal of this project is to build an example Python package using industry-st
     ```
 
 ### Execution via Command Line
-1. Ensure you are inside the same virtual environment which you used to install the package.
+1. Ensure you are inside the same virtual environment in which you installed the package.
 2. Use an entry point from the distribution's `setup.py` file, if there is one, or execute the script from the command line in the usual way.
     ```shell script
     $ run-pythontemplate  # entry point
@@ -26,7 +26,7 @@ The goal of this project is to build an example Python package using industry-st
     ```
 
 ### Execution via the Python Interpreter
-1. Ensure you are inside the same virtual environment which you used to install the package.
+1. Ensure you are inside the same virtual environment in which you installed the package.
 2. Start your interpreter, then import the package or functions from the package to use.
     ```shell script
     $ python
