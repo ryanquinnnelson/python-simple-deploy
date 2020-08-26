@@ -25,7 +25,7 @@ The goal of this project is to build an example Python package using industry-st
     $ python pythontemplatepackage/pythontemplatemodule.py  # usual way
     ```
 
-### Execution via Python Interpreter
+### Execution via the Python Interpreter
 1. Ensure you are inside the same virtual environment which you used to install the package.
 2. Start your interpreter, then import the package or functions from the package to use.
     ```shell script
@@ -35,8 +35,8 @@ The goal of this project is to build an example Python package using industry-st
     123
     ```
 
-### Package Usage in Another Python Project
-1. Ensure you are inside the same virtual environment which you used to install the package.
+### Using this package inside another python project
+1. Ensure you are inside the same virtual environment in which you installed the package.
 2. Import the package or functions from the package to use.
     ```python
     from pythontemplatepackage.pythontemplatemodule import get_id
