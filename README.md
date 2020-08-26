@@ -45,7 +45,7 @@ The goal of this project is to build an example Python package using industry-st
 
 
 
-## Distributing this package
+## Distributing this package to PyPi / TestPyPi
 1. Ensure you are not inside a virtual environment.
 2. Assemble a distribution using `wheel`
     ```shell script
