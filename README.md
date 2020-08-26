@@ -17,20 +17,23 @@ A standard template for organizing distributable python packages in a git reposi
 
 ### Execution via Command Line
 1. Ensure you are inside the same virtual environment which you used to install the package.
-2. Use an entry point from the distribution's `setup.py` file, if there is one.
-```shell script
-$ run-pythontemplate
-```
+2. Use an entry point from the distribution's `setup.py` file, if there is one, or execute the script from the command line in the usual way.
+    ```shell script
+    $ run-pythontemplate  # entry point
+    ```
+    ```shell script
+    $ python pythontemplatepackage/pythontemplatemodule.py  # usual way
+    ```
 
 ### Execution via Python Interpreter
 1. Ensure you are inside the same virtual environment which you used to install the package.
 2. Start your interpreter, then import the package or functions from the package to use.
-```shell script
-$ python
->>> from pythontemplatepackage.pythontemplatemodule import get_id
->>> get_id('John')
-123
-```
+    ```shell script
+    $ python
+    >>> from pythontemplatepackage.pythontemplatemodule import get_id
+    >>> get_id('John')
+    123
+    ```
 
 ### Package Usage in Another Python Project
 1. Ensure you are inside the same virtual environment which you used to install the package.
