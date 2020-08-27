@@ -1,5 +1,9 @@
 # pythontemplate
-The goal of this project is to build an example Python package using industry-standard techniques for organizing distributable code. 
+This project explores how to build an example Python package using  
+industry-standard project organization and how to distribute code to PyPI.
+
+Follows: https://blog.ionelmc.ro/2014/05/25/python-packaging/#the-structure
+
 
 ## Using this package
 ### Installation
@@ -39,7 +43,11 @@ The goal of this project is to build an example Python package using industry-st
 1. Ensure you are inside the same virtual environment in which you installed the package.
 2. Import the package or functions from the package to use.
     ```python
-    from pythontemplatepackage.pythontemplatemodule import get_id
+    ```python
+       ```python
+          from src.pythontemplatepackage.pythontemplatemodule import get_id
+          ```
+       ```
     ```
 
 
