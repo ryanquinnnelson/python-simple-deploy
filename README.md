@@ -1,6 +1,5 @@
 # pythontemplate
-This project explores how to build an example Python package using  
-industry-standard project organization and how to distribute code to PyPI.
+This project explores how to build a Python package using industry-standard project organization for distributable code and how to distribute code to PyPI.
 
 Follows: https://blog.ionelmc.ro/2014/05/25/python-packaging/#the-structure
 
